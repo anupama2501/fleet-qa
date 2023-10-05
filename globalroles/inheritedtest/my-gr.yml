@@ -4,6 +4,7 @@ metadata:
   name: my-test-gr1
 inheritedClusterRoles:
   - cluster-member
+  - clusterroletemplatebindings-view
 rules:
   - apiGroups:
       - '*'
