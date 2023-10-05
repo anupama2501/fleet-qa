@@ -3,7 +3,7 @@ kind: GlobalRole
 metadata:
   name: my-test-gr1
 inheritedClusterRoles:
-  - cluster-admin
+  - cluster-member
 rules:
   - apiGroups:
       - '*'
