@@ -2,7 +2,7 @@ apiVersion: management.cattle.io/v3
 builtin: false
 context: cluster
 description: ''
-displayName: testing external rules
+displayName: testing clusterrt via fleet
 external: true
 externalRules:
   - apiGroups:
