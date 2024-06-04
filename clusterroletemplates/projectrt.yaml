@@ -2,11 +2,16 @@ apiVersion: management.cattle.io/v3
 builtin: false
 context: project
 description: ''
-displayName: projecttest
+displayName: testing project rt via fleet
 external: true
+externalRules:
+  - apiGroups:
+      - ''
+    resources:
+      - pods
+    verbs:
+      - get
 hidden: false
 kind: RoleTemplate
 metadata:
-  name: rt-jlj2c
-roleTemplateNames:
-  - admin
+  name: projectrt
