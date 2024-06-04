@@ -3,7 +3,7 @@ builtin: false
 context: project
 description: ''
 displayName: projecttest
-external: false
+external: true
 hidden: false
 kind: RoleTemplate
 metadata:
