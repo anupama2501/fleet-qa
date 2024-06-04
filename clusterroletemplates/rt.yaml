@@ -1,0 +1,17 @@
+apiVersion: management.cattle.io/v3
+builtin: false
+context: cluster
+description: ''
+displayName: testing external rules
+external: true
+externalRules:
+  - apiGroups:
+      - ''
+    resources:
+      - pods
+    verbs:
+      - get
+hidden: false
+kind: RoleTemplate
+metadata:
+  name: view21
