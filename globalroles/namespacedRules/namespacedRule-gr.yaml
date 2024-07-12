@@ -5,14 +5,11 @@ metadata:
 inheritedClusterRoles:
   - cluster-member
   - clusterroletemplatebindings-view
-rules:
-  - apiGroups:
-      - '*'
-    resources:
-      - '*'
-    verbs:
-      - '*'
-  - nonResourceURLs:
-      - '*'
-    verbs:
-      - '*'
+namespacedRules:
+  test-ns:
+    - apiGroups:
+        - ''
+      resources:
+        - 'configmaps'
+      verbs:
+        - '*'
